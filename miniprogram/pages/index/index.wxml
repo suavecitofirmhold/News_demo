@@ -1,0 +1,11 @@
+<view class='news-list'>
+  <view class="news-wrapper">
+    <view class="item1">{{fTitle}}</view>
+    <view class="item2">{{fDate}}</view>
+    <view class="item3">3</view>
+    <view class="item4">4</view>
+    <view class="item5">5</view>
+    <view class="item6">6</view>
+    <view class="item7">7</view>
+  </view>
+</view>
