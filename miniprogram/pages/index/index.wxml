@@ -1,25 +1,9 @@
-<!--<view class='news-list'>
-  <view class="news-wrapper">
-
-   <view wx:for="{{[1,2,3,4,5,6,7,]}}">yes
-    </view>
-    <view class="item1">{{fTitle}}</view>
-    <view class="item2">{{fDate}}</view>
-    <view class="item3">3</view>
-    <view class="item4">4</view>
-    <view class="item5">5</view>
-    <view class="item6">6</view>
-    <view class="item7">7</view> 
-  </view>
-</view>-->
 <scroll-view scroll-x>
   <view class='news-list'>
     <view class="news-item" wx:for="{{allkinds}}">
       <view class='news-title' bindtap='onTapList'>{{item}}</view>
     </view>
   </view>
-  <image class='news-image' src="/images/sunny-bg.png"
-      mode='scaleToFill'></image>
 </scroll-view>
 <scroll-view>
   <view class='content-list'>
