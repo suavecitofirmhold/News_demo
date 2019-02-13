@@ -5,9 +5,10 @@
 
 .news-item{
   display: flex;
-  flex-shrink: 0;
   flex-direction: column;
   width: 120rpx;
+  font-size: 36rpx;
+  line-height: 42rpx;
 }
 
 .content-list{

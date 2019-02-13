@@ -1,10 +1,9 @@
-<scroll-view scroll-x>
+
   <view class='news-list'>
-    <view class="news-item" wx:for="{{allkinds}}">
-      <view class='news-title' bindtap='onTapList'>{{item}}</view>
+    <view class="news-item" wx:for="{{newsCategory}}" wx:key="{{item.id}}" data-index="{{index}}" bindtap='handleCateChange'>
+      <view class='news-title'>{{item.name}}</view>
     </view>
   </view>
-</scroll-view>
 <scroll-view>
   <view class='content-list'>
       <view class="content-item" wx:for="{{news}}">
